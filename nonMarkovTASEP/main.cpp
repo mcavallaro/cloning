@@ -177,8 +177,8 @@ int main(int argc, char *argv[]) {
       // do{
       //   num_rand = gsl_rng_uniform_int(r,DIM_ENSEMBLE);
       // }while(num_rand==i);
-      num_rand = gsl_rng_uniform_int(r, DIM_ENSEMBLE - 1)
-      if (num_rand >= i) num_rand++
+      num_rand = gsl_rng_uniform_int(r, DIM_ENSEMBLE - 1);
+      if (num_rand >= i) num_rand++;
       system[i] = system[num_rand];
       times[i] = times[num_rand];
     }
