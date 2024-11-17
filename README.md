@@ -5,8 +5,8 @@ This repository contains:
 
 - c++ code used in reference [1] for the evaluation of the scaled cumulant generating functions (SCGFs) in:
     - Non-Markovian TASEP (Totally Asymmetric Simple Exclusion Process) `nonMarkovTASEP`,
-    - Semi-Markov model for ion-channel gating with direction-time independence (DTI),
-    - Semi-Markov model for ion-channel gating without DTI.
+    - Semi-Markov model for ion-channel gating with direction-time independence (DTI) `SemiMarkovDTI`,
+    - Semi-Markov model for ion-channel gating without DTI `SemiMarkovNonDTI`.
 
 - `cloning.py`, a Python implementation of the cloning algorithm for non-Markovian processes with heap sort, based on the examples at https://www.lpsm.paris//pageperso/lecomte/warwick-summer-school_2013.html. A basic Jupyter notebook demonstration (with Process-based parallelism) is [here](https://github.com/mcavallaro/cloning/blob/master/cloning.ipynb).
 
