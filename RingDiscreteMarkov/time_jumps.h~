@@ -1,0 +1,13 @@
+//#include <cstdlib>
+#include <gsl/gsl_rng.h>
+#include "type_defs.h"
+
+
+
+double phi_c(double tau);
+
+double PLeft(Systems *system, int i);
+
+double PRight(Systems *system, int i);
+
+double time_increment_f( gsl_rng* r, vector<double> &CDF);
