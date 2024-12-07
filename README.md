@@ -7,7 +7,7 @@ This repository contains:
     - Non-Markovian TASEP (Totally Asymmetric Simple Exclusion Process) `\nonMarkovTASEP`,
     - Semi-Markov model for ion-channel gating with direction-time independence (DTI) `\SemiMarkovDTI`,
     - Semi-Markov model for ion-channel gating without DTI `\SemiMarkovNonDTI`,
-    - Discrete-time random walk on a ring `\RingDiscreteMarkov`.
+    - Discrete-time random walk on a ring (with heap sort) `\RingDiscreteMarkov`.
 
 - `cloning.py`, a Python implementation of the cloning algorithm for non-Markovian processes with heap sort, based on the examples at https://www.lpsm.paris//pageperso/lecomte/warwick-summer-school_2013.html. A basic Jupyter notebook demonstration (with Process-based parallelism) is [here](https://github.com/mcavallaro/cloning/blob/master/cloning.ipynb).
 
